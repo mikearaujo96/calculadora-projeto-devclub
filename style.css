@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 37, 37);
+}
+
+.container{
+    width: 400px;
+    height: 550px;
+    background-color: white;   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.171);
+}
+
+.visor{
+    grid-column: 1 / 7;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    padding-right: 10px;
+}
+
+.itens-colum-1{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(255, 0, 0);
+}
+.itens-colum-1:hover{
+    background-color: rgb(173, 8, 8);
+}
+.itens-colum-1:active{
+    background-color: rgb(95, 3, 3);
+}
+
+.itens-colum-2{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(255, 60, 0);
+}
+.itens-colum-2:hover{
+    background-color: rgb(201, 50, 5);
+}
+.itens-colum-2:active{
+    background-color: rgb(158, 41, 6);
+}
+
+.itens-colum-3{
+    grid-column: 3;
+    grid-row: 2;
+    background-color: rgb(255, 166, 0);
+}
+
+.itens-colum-4{
+    grid-column: 4;
+    grid-row: 2;
+    background-color: rgb(255, 166, 0);
+}
+
+.itens-colum-5{
+    grid-column: 4;
+    grid-row: 3;
+    background-color: rgb(255, 166, 0);
+}
+
+.itens-colum-6{
+    grid-column: 4;
+    grid-row: 4;
+    background-color: rgb(255, 166, 0);
+}
+
+.itens-colum-7{
+    grid-column: 4;
+    grid-row: 5;
+    background-color: rgb(255, 166, 0);
+}
+
+.itens-colum-8{
+    grid-column: 4;
+    grid-row: 6;
+    background-color: rgb(0, 140, 255);
+    border-radius: 0px 0px 8px 0px;
+}
+.itens-colum-8:hover{
+    background-color: rgb(6, 107, 190);
+}
+.itens-colum-8:active{
+    background-color: rgb(6, 90, 160);
+}
+
+.itens-colum-9{
+    grid-column: 3;
+    grid-row: 6;
+}
+.itens-colum-10{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.itens-colum-10{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.itens-colum-11{
+    grid-column: 2;
+    grid-row: 3;
+}
+.itens-colum-12{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.itens-colum-13{
+    grid-column: 1;
+    grid-row: 4;
+}
+.itens-colum-14{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.itens-colum-15{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.itens-colum-16{
+    grid-column: 1;
+    grid-row: 5;
+}
+.itens-colum-17{
+    grid-column: 2;
+    grid-row: 5;
+}
+.itens-colum-18{
+    grid-column: 3;
+    grid-row: 5;
+}
+.itens-colum-19{
+    grid-column: 1/3;
+    grid-row: 6;
+    border-radius: 0px 0px 0px 8px;
+}
+
+
+
+
+
+button{
+    border: none;
+    background-color: rgb(107, 105, 105);
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+}
+
+.num:hover{
+    background-color: gray;
+}
+.num:active{
+    background-color: rgb(82, 80, 80);
+}
+.simb:hover{
+    background-color: rgb(221, 145, 3);
+}
+.simb:active{
+    background-color: rgb(168, 111, 3);
+}
+
+
+p{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
